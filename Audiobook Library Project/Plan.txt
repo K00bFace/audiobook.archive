@@ -1,0 +1,29 @@
+############################################
+
+1. Make a index page
+ - Page should look nice
+ - Python implementation
+ - Featuring name, other UID
+
+2. Python page for searching
+ - Show library
+ - Links to each book
+
+X. Reason for why I did this.html?
+
+
+############################################
+
+
+Index.html
+
+Header
+ - Introduction to page
+ - Introduction to library
+
+Body
+ - Library list
+ - Resources used
+ - ?
+
+############################################
