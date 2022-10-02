@@ -1,11 +1,12 @@
 ############################################
 
+
 1. Make a index page
  - Page should look nice
  - Python implementation
  - Featuring name, other UID
 
-2. Python page for searching
+2. JavaScript for searching
  - Show library
  - Links to each book
 
@@ -25,5 +26,25 @@ Body
  - Library list
  - Resources used
  - ?
+
+
+############################################
+
+
+JavaScript
+ - get search
+ - append search to URL ("URL"+"_search")
+ - save new URL as variable
+ - print URL as link on page
+
+
+############################################
+
+
+Stored Audio books
+ - requests?
+ - only use links for page?
+ - saving the audiobooks in github?
+
 
 ############################################
