@@ -34,6 +34,7 @@ Body
 JavaScript
  - get search
  - append search to URL ("URL"+"_search")
+ - multiple sites for single search
  - save new URL as variable
  - print URL as link on page
 
@@ -43,8 +44,8 @@ JavaScript
 
 Stored Audio books
  - requests?
- - only use links for page?
- - saving the audiobooks in github?
+ - only use links for pages?
+ - saving the audiobooks in repo?
 
 
 ############################################
