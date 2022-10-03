@@ -1,0 +1,33 @@
+
+/* whole page */
+html, body, #wrap {
+    height: 100%;
+    width: 100%;
+}
+/*  */
+noscript {
+    color: red;
+}
+
+header {
+    background-color: black; 
+    color: white;
+    height: 30%;
+}
+
+body {
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    height: 50%;
+  }
+
+footer {
+    background-color: black; 
+    color: white;
+    height: 20%;
+  }
+
+  #links {
+    align-content: center;
+  }
