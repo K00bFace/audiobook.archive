@@ -1,0 +1,20 @@
+searchedAudio: _
+
+# For source in db, search searchedQuery, return response
+
+# For each in response, return source, website, relevancy, link, if stored locally
+
+# If stored locally = true, show link = false
+
+  Audio: _
+    source: https://audiobookss.com/?s=
+      Website: https://audiobookss.com
+        relavancy: _
+            stored locally:
+              link: https://
+  Audio: _
+    source: https://odysee.com/$/search?q=
+      website: https://odysee.com
+        relavancy: _
+          stored locally:
+            link: https://

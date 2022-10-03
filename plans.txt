@@ -1,7 +1,7 @@
 ############################################
 
 
-1. Make a index page
+1. Make an index page
  - Page should look nice
  - Python implementation
  - Featuring name, other UID
@@ -16,11 +16,13 @@ X. Reason for why I did this.html?
 ############################################
 
 
-Index.html
-
 Header
  - Introduction to page
  - Introduction to library
+
+
+ ############################################
+
 
 Body
  - Library list
@@ -32,20 +34,30 @@ Body
 
 
 JavaScript
- - get search
- - append search to URL ("URL"+"_search")
- - multiple sites for single search
- - save new URL as variable
- - print URL as link on page
+ - Get search
+ - Append search to URL ("URL"+"_search")
+ - Multiple sites for a single search
+ - Save the new URL as variable
+ - Sort the results on relevancy
+ - Print URL as link on the page
 
 
 ############################################
 
 
-Stored Audio books
- - requests?
- - only use links for pages?
- - saving the audiobooks in repo?
+Stored Audiobooks
+ - Requests?
+ - Only use links for pages?
+ - Saving the audiobooks in the repo?
+
+
+############################################
+
+
+Database
+ - Find an online database
+ - Store audiobooks
+ - Implement the database into the page
 
 
 ############################################
