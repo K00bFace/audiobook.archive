@@ -3,6 +3,11 @@
     <head>
         <title>Koob's Audiobook Archive</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous">
+        </script>
         <link rel="stylesheet" href="default.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     </head>
@@ -27,7 +32,7 @@
             
             <div class="p-3">
                 <h2>All Audio Books</h2>
-                <div id="books">
+                <div id="book_0">
                     <p id="no_books">There are unfortunately no audio books available as of this moment. Please check back later.</p>
                 </div>
             </div>
@@ -42,5 +47,17 @@
             </div>
         </footer>
         <script src="index.js" type="text/javascript"></script>
+        <script>
+            var count = 0;
+            $(function() {
+                $.getJSON('sources.json', function(data) {
+                    $.each(data.sources, function(i, f) {
+                    var book = "<div id='book_" + (count + 1) + "'><p>" + f.site_name + "</p></div>";
+                    $(book).insertAfter("#book_" + count);
+                    count = count + 1;
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
